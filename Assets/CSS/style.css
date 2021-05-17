@@ -23,5 +23,6 @@
     background-color: RoyalBlue;
 }
 .page-container{
-    background-color: #bbdefb
+    background-color: #bbdefb;
+    background-image: url('../tx-hill-country.jpg');
 }
