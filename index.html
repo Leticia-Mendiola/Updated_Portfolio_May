@@ -13,7 +13,24 @@
 </head>
 <body>
 <div class="page-container">
-  <!-- Add Navbar -->
+  <nav class="navbar blue navbar-expand-lg navbar-light bg-secondary">
+    <div class="container-fluid">
+        <a class="brand-logo center" href="/">Patient Tracker</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    <a class="nav-link" href="/patients">Patients</a>
+                    <a class="nav-link" href="/rooms">Rooms</a>
+                    <a class="nav-link" id="logout" href="/logout">Logout</a>
+            </div>
+        </div>
+    </div>
+  </nav>
   <nav>
     <div class="nav-wrapper cyan darken-1">
       <a href="#" class="brand-logo left">Leticia Mendiola</a>
